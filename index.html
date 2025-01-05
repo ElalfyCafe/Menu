@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Alfy-Menu</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="icon" type="image" href="./images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marhey:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="hello" >
+        <div class="contain marhey ">
+           
+            <h1><span class="auto-type"></span> </h1>
+        </div>
+    </section>
+    <section id="Menu">
+        <div class="slider">
+            <div class="slides">
+                <img src="./images/1.png" alt="image#0" class="slide">
+                <img src="./images/2.jpg" alt="image#1" class="slide">
+        
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+           </div>
+    </section>
+
+   <footer class="">
+    <div class="white">
+       <h1>Order Now :</h1>
+            
+        <h2 class="phone" style="font-family: 'Courier New', Courier, monospace;">01014715214</h1>
+
+        <a href="https://www.facebook.com/profile.php?id=100064000592356" target="_blank"><i class=" fa-brands fa-facebook"></i></a>
+        <a href="https://maps.app.goo.gl/vZe8EgJAtBAyYXGY9" class="">
+            <i class=" fa-solid fa-location-dot"></i> 
+        </a> 
+
+        
+    </div>
+
+</footer>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        new WOW().init();
+        </script>
+    <script>
+        var typed = new Typed(".auto-type",{
+          strings : ["مرحبا بكم في بن الألفي",  "يسعدنا تشريفكم" , "خلينا نشوفك" , "بن الألفي ☕"],
+          typeSpeed : 100,
+          backSpeed : 50,
+          looped : true
+        })
+      </script>
+</body>
+</html>
